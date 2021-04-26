@@ -1,0 +1,10 @@
+{
+  "name": "Tocara_Earring_02",
+  "recordDuration": 15,
+  "frx": {
+    "type": "3d_anim",
+    "3d_anim": {
+      "type": "vfx"
+    }
+  }
+}

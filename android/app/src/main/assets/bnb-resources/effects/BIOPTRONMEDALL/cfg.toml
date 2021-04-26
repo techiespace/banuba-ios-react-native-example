@@ -1,0 +1,69 @@
+warp_mesh = "BeautyFaceSP_Optimased.bsm2"
+msaa = 1
+shadowmap_size = 512
+adjust_znear = 150
+draw_order = ['retouch', '!glfx_WARP_IMAGE', 'facemat', 'Earrings_mat', 'Brilliant_mat']
+
+# Retouch
+[materials.retouch]
+vs = "retouch.vert"
+fs = "retouch.frag"
+blend = "off" # "alpha", "premul_alpha", "screen", "add", "multiply", "coverage", "off"
+backfaces = false
+colorwrite = true
+zwrite = true
+shadow = false
+onface = true
+mouth = true
+[materials.retouch.samplers]
+lookupTexTeeth="lut3d_TEETH_high.png"
+lookupTexEyes="lut3d_EYES_high.png"
+tex_softLight="soft_princess.png"
+tex_normalMakeup="lashes7.png"
+tex_highlight="FLARE_40_768.png"
+
+# Cut
+[materials.facemat]
+vs = "facemat.vert"
+fs = "facemat.frag"
+blend = "off"
+backfaces = false
+colorwrite = false
+zwrite = true
+shadow = false
+samplers = {}
+
+# PBR
+[materials.Earrings_mat]
+vs = "earrings_mat.vert"
+fs = "earrings_mat.frag"
+blend = "alpha" # "alpha", "premul_alpha", "screen", "add", "multiply", "coverage", "off"
+backfaces = true
+colorwrite = true
+zwrite = true
+shadow = false
+[materials.Earrings_mat.samplers]
+tex_diffuse="Earrings_mat_Base_Color.ktx"
+tex_normal="Earrings_mat_Normal.ktx"
+tex_brdf="brdf.ktx"
+tex_ibl_diff="ibl_diff.ktx"
+tex_ibl_spec="ibl_spec.ktx"
+tex_mrao="Earrings_mat_MRAO.ktx"
+
+# PBR
+[materials.Brilliant_mat]
+vs = "mat_crystal.vert"
+fs = "face.frag"
+blend = "alpha" # "alpha", "premul_alpha", "screen", "add", "multiply", "coverage", "off"
+backfaces = true
+colorwrite = true
+zwrite = true
+shadow = false
+[materials.Brilliant_mat.samplers]
+tex_diffuse="Earrings_mat_Base_Color.ktx"
+tex_normal="Earrings_mat_Normal.ktx"
+tex_brdf="brdf.ktx"
+tex_ibl_diff="ibl_diff.ktx"
+tex_ibl_spec="ibl_spec.ktx"
+tex_mrao="Earrings_mat_MRAO.ktx"
+tex_skybox="cubemap.ktx"
