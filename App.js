@@ -1,9 +1,9 @@
 import 'react-native-gesture-handler';
 // Amplify //
-import Amplify, { Auth } from 'aws-amplify';
-import config from './src/Features/constants/aws-exports';
-Amplify.configure(config);
-import './src/Features/constants/consumer-variables.styles';
+// import Amplify, { Auth } from 'aws-amplify';
+// import config from './src/Features/constants/aws-exports';
+// Amplify.configure(config);
+// import './src/Features/constants/consumer-variables.styles';
 import React, { useEffect } from 'react';
 import {
   StyleSheet,
