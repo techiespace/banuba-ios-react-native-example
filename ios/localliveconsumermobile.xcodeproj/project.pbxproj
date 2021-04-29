@@ -14,7 +14,6 @@
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		B14F7FBE26327EDA00FD28EF /* BanubaTryOnViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14F7FBD26327EDA00FD28EF /* BanubaTryOnViewManager.swift */; };
 		B14F7FC126327FBD00FD28EF /* BanubaTryOnViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B14F7FC026327FBD00FD28EF /* BanubaTryOnViewManager.m */; };
-		B1B806E42635B6E700A21ED9 /* BanubaSdk in Resources */ = {isa = PBXBuildFile; fileRef = B1B806E22635B6E700A21ED9 /* BanubaSdk */; };
 		B1B807882635C18C00A21ED9 /* BanubaSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B806E02635B6E700A21ED9 /* BanubaSdk.framework */; };
 		B1B807892635C18C00A21ED9 /* BanubaSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1B806E02635B6E700A21ED9 /* BanubaSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B1B8078B2635C19200A21ED9 /* BanubaEffectPlayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B806E12635B6E700A21ED9 /* BanubaEffectPlayer.xcframework */; };
@@ -66,7 +65,6 @@
 		B14F7FC026327FBD00FD28EF /* BanubaTryOnViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BanubaTryOnViewManager.m; sourceTree = "<group>"; };
 		B1B806DB2635B6E700A21ED9 /* BanubaSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BanubaSdk.xcodeproj; path = Frameworks/BanubaSdk.xcodeproj; sourceTree = "<group>"; };
 		B1B806E12635B6E700A21ED9 /* BanubaEffectPlayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BanubaEffectPlayer.xcframework; path = Frameworks/BanubaEffectPlayer.xcframework; sourceTree = "<group>"; };
-		B1B806E22635B6E700A21ED9 /* BanubaSdk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BanubaSdk; path = Frameworks/BanubaSdk; sourceTree = "<group>"; };
 		B1B8078D2635C47A00A21ED9 /* BanubaClientToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BanubaClientToken.swift; path = localliveconsumermobile/BanubaClientToken.swift; sourceTree = "<group>"; };
 		B1B8078F2635C57700A21ED9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = localliveconsumermobile/CameraViewController.swift; sourceTree = "<group>"; };
 		B1B807912636772800A21ED9 /* effects */ = {isa = PBXFileReference; lastKnownFileType = folder; name = effects; path = localliveconsumermobile/effects; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				B1B806E12635B6E700A21ED9 /* BanubaEffectPlayer.xcframework */,
-				B1B806E22635B6E700A21ED9 /* BanubaSdk */,
 				B1B806DB2635B6E700A21ED9 /* BanubaSdk.xcodeproj */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
@@ -264,7 +261,6 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				B1B807922636772900A21ED9 /* effects in Resources */,
-				B1B806E42635B6E700A21ED9 /* BanubaSdk in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

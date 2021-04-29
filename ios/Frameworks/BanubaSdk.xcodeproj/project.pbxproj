@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,18 +28,18 @@
 		57F7EFE92100C4AC00FCCDCF /* SBVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F7EFD62100C4AC00FCCDCF /* SBVideoWriter.m */; };
 		57F7F0042100CA1400FCCDCF /* InputService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7F0032100CA1400FCCDCF /* InputService.swift */; };
 		805CB05E21BFFDEF0065BA68 /* UIImage+RawDataCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB05D21BFFDEF0065BA68 /* UIImage+RawDataCreation.swift */; };
-		B1B807352635B89700A21ED9 /* BanubaEffectPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132C832225BEB5DF00289F39 /* BanubaEffectPlayer.framework */; };
-		B1B807362635B89700A21ED9 /* BanubaEffectPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 132C832225BEB5DF00289F39 /* BanubaEffectPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B13FCDE2263AC94700E799C9 /* BanubaEffectPlayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13FCDE1263AC94700E799C9 /* BanubaEffectPlayer.xcframework */; };
+		B13FCDE3263AC94700E799C9 /* BanubaEffectPlayer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B13FCDE1263AC94700E799C9 /* BanubaEffectPlayer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B1B807372635B89700A21ED9 /* Embed Frameworks */ = {
+		B13FCDE4263AC94700E799C9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B1B807362635B89700A21ED9 /* BanubaEffectPlayer.framework in Embed Frameworks */,
+				B13FCDE3263AC94700E799C9 /* BanubaEffectPlayer.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +72,7 @@
 		57F7EFD62100C4AC00FCCDCF /* SBVideoWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBVideoWriter.m; sourceTree = "<group>"; };
 		57F7F0032100CA1400FCCDCF /* InputService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputService.swift; sourceTree = "<group>"; };
 		805CB05D21BFFDEF0065BA68 /* UIImage+RawDataCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+RawDataCreation.swift"; sourceTree = "<group>"; };
+		B13FCDE1263AC94700E799C9 /* BanubaEffectPlayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BanubaEffectPlayer.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1B807352635B89700A21ED9 /* BanubaEffectPlayer.framework in Frameworks */,
+				B13FCDE2263AC94700E799C9 /* BanubaEffectPlayer.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +200,7 @@
 		E4E3CA442255016C00907792 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B13FCDE1263AC94700E799C9 /* BanubaEffectPlayer.xcframework */,
 				1315CE4825B5B4CB002ED0D6 /* BanubaEffectPlayer.xcframework */,
 				132C832225BEB5DF00289F39 /* BanubaEffectPlayer.framework */,
 			);
@@ -229,7 +231,7 @@
 				57AB757420FF4A240013C11F /* Frameworks */,
 				57AB757520FF4A240013C11F /* Headers */,
 				57AB757620FF4A240013C11F /* Resources */,
-				B1B807372635B89700A21ED9 /* Embed Frameworks */,
+				B13FCDE4263AC94700E799C9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
